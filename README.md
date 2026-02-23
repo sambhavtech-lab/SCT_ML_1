@@ -1,35 +1,43 @@
 # SCT_ML_1
-# Customer Segmentation using KMeans Clustering
+# 🏠 House Price Prediction using Multiple Linear Regression
 
-## 📌 Project Overview
-This project groups retail store customers based on their purchase behavior using KMeans clustering.
+## 📌 Overview
+This project predicts house prices using Multiple Linear Regression based on:
+- Square Footage
+- Number of Bedrooms
+- Number of Bathrooms
 
-## 📊 Features Used
-- Annual Spend
-- Visit Frequency
-- Average Basket Value
+## 🎯 Objective
+To build a regression model that estimates housing prices using numerical features and evaluate its performance.
 
-## 🧠 Techniques Applied
-- Data Preprocessing
-- Feature Scaling
-- Elbow Method
-- KMeans Clustering
-- Data Visualization
+## 📊 Dataset
+Features:
+- sqft
+- bedrooms
+- bathrooms
+Target:
+- price
 
-## 🛠 Tools & Libraries
+## 🛠 Technologies Used
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Scikit-learn
-- Google Colab
 
-## 📈 Results
-Customers were successfully divided into meaningful clusters based on spending behavior.
+## 🤖 Model
+Multiple Linear Regression
 
-## 🚀 How to Run
-1.open the notebook in google colab
-2.upload the daaset
-3.Run all cells
-1. Open the notebook in Google Colab
-2. Upload the dataset
-3. Run all cells
+## 📈 Evaluation Metrics
+- Mean Squared Error (MSE)
+- R² Score
+
+## 🔎 Key Insights
+- Square footage has the strongest influence on price.
+- Bedrooms and bathrooms positively impact price.
+
+## 🚀 Future Improvements
+- Add location feature
+- Try Ridge and Lasso regression
+- Deploy as web app
+
